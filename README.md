@@ -22,13 +22,13 @@ Commodity markets are influenced by supply and demand factors often reflected in
 
 ## Data Pipeline
 
-![Data Pipeline](./f98b061e-0d7b-4851-9b41-d8fb0af5a1e6.png)
+![Data Pipeline](./images/data-pipeline.png)
 
 *Figure 1: Data collection, cleaning, and annotation pipeline used to build the final dataset.*
 
 ## Model Architectures and Parameters
 
-![Improved Models Diagram](./b4f22663-5d58-4e31-9274-7eaab581c76a.png)
+![Improved Models Diagram](./images/model-architecture.png)
 
 *Figure 2: Diagram of improved models and training parameters used for forecasting and reasoning.*
 
@@ -36,7 +36,7 @@ Commodity markets are influenced by supply and demand factors often reflected in
 
 The project explores two main architectural extensions: cascaded and joint models. Cascaded models separate price prediction and explanation generation, while joint models combine both tasks into a single training objective.
 
-![Flow Chart for Extension](./829833a0-bf30-41d2-9bb7-48c750f2e9e2.png)
+![Flow Chart for Extension](./images/cascaded-vs-joint-flow.png)
 
 *Figure 3: Flow chart depicting cascaded and joint model architectures for multi-modal forecasting.*
 
